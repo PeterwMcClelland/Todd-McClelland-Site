@@ -1,6 +1,8 @@
 
 import './App.css';
 import NavBar from './components/NavBar';
+import Video from './components/Video';
+
 
 function App() {
   return (
@@ -8,6 +10,9 @@ function App() {
       <header className="App-header">
        <NavBar></NavBar>
       </header>
+      <body>
+        <Video></Video>
+      </body>
     </div>
   );
 }

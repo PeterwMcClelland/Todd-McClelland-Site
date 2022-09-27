@@ -5,17 +5,15 @@ function NavBar() {
     return(
         <header>
         <nav className="navbar">
-        <h1>Todd McClelland</h1>
+        <h1 className="title">Todd McClelland
+        <p className="subtitle">Director Of Photography</p>
+        </h1>
         <ul className="navpages">
-            <ol hraf="#about">
-            About
-            </ol>
-            <ol>
-            Projects
-            </ol>
-            <ol>
-            Contact
-            </ol>
+
+            <ol><a href="#projects">Projects</a></ol>
+            <ol><a href="#about">About</a></ol>
+            <ol><a href="#contact">Contact</a></ol>
+
         </ul>
         </nav>
         </header>
