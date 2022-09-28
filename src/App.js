@@ -1,6 +1,7 @@
 
 import './App.css';
-import NavBar from './components/NavBar';
+import About from './components/About';
+import Projects from './components/Projects';
 
 
 
@@ -8,13 +9,11 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
+   
     <div className="App">
-      <header className="App-header">
-       <NavBar></NavBar>
-      </header>
-      <body>
-    
-      </body>
+      
+      <About></About>
+      <Projects></Projects>
     </div>
   );
 }
