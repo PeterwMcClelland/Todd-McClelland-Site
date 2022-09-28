@@ -1,7 +1,9 @@
 
 import './App.css';
 import NavBar from './components/NavBar';
-import Video from './components/Video';
+
+
+
 
 
 function App() {
@@ -11,10 +13,13 @@ function App() {
        <NavBar></NavBar>
       </header>
       <body>
-        <Video></Video>
+    
       </body>
     </div>
   );
 }
 
 export default App;
+
+
+
