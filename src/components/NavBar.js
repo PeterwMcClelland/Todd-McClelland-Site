@@ -11,9 +11,6 @@ function NavBar() {
         </h1>
         <ul className="navpages">
 
-            <ol><a href="#projects">Projects</a></ol>
-            <ol><a href="#about">About</a></ol>
-            <ol><a href="#contact">Contact</a></ol>
 
         </ul>
         </nav>

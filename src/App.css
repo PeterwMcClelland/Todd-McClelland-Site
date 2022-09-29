@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: inherit;
+ 
 }
 
 .App-logo {
@@ -28,6 +30,48 @@
   }
 }
 
+/* NavBar */
+
+.title {
+    align-content: flex-end;
+    line-height: 8px;
+    text-align: justify;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    font-weight: 100;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: ivory;
+  }
+  
+  .navbar {
+    justify-content: flex-end;
+    display: flex;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  
+  .navpages {
+    align-content: flex-end;
+    display: flex;
+  }
+
 /* Video */
 
 .video {
@@ -35,4 +79,38 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 2em;
+}
+
+/* About */
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#middlecol {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 15px;
+}
+
+#rightcol {
+  padding: 15px;
+}
+
+#leftcol {
+  padding:15px;
+}
+
+div.row {
+  align-content: space-between;
+  display: flow-root;
+  width: auto;
+  column-gap: 292px;
+}
+
+.column {
+  width:33.33333333%;
+  text-align: inherit;
+    display: table-cell;
 }

@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './header';
+
+
+
+
 
 const header = ReactDOM.createRoot(document.getElementById('header'));
 header.render(
-  
-    <Header />
-  
+   
 )
 
 
