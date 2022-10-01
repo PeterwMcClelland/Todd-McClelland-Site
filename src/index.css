@@ -16,6 +16,7 @@ code {
 
 /* NavBar */
 
+
 nav {
   align-content: flex-end;
     display: inherit;
@@ -29,13 +30,17 @@ ul {
 
 .title {
     align-content: flex-end;
-    line-height: 8px;
+    line-height: 2px;
     text-align: justify;
+  }
+
+  .header {
+    font-weight: 400;
   }
   
   .subtitle {
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 200;
   
   }
   
@@ -50,16 +55,19 @@ ul {
   }
 
 .navcomponents {
-  justify-content: space-around;
-    width: 500px;
-    display: inline-flex;
-    text-decoration: ivory;
+  justify-content: space-between;
+  width: 500px;
+  margin-left: 250px;
+  display: inline-flex;
+  font-weight: 300;
+  text-decoration: rgb(253, 253, 253);
    
 }
 
 a {
   text-decoration: none;
-  color: ivory;
+  color: rgb(250, 250, 250);
+  font-size: 20px;
 }
 
 .App-header {
@@ -73,6 +81,7 @@ a {
   color: white;
   align-items: flex-start;
   padding-left: 20px;
+
 }
 
 /* About */
@@ -107,4 +116,10 @@ div.row {
   width:33.33333333%;
   text-align: inherit;
     display: table-cell;
+}
+
+/* React Player */
+
+.reactplayer {
+  width: auto;
 }

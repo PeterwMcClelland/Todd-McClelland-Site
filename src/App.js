@@ -44,6 +44,7 @@ import Layout from "./layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
+
 import "./App.css";
 
 
@@ -55,6 +56,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

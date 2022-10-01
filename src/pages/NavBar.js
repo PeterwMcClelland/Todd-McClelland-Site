@@ -6,20 +6,22 @@ const Layout = () => {
     <>
       <nav className="App-header">
         <div className="title">
-        <h1>Todd McClelland</h1>
-        <p>Director Of Photography</p>
-        </div>
+        <h1 className="header">Todd McClelland</h1>
+        <p className="subtitle">Director Of Photography</p>
+        
         <ul className="navcomponents">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Projects</Link>
           </li>
           <li>
             <Link to="/About">About</Link>
           </li>
+            <Link to="/Contact">Contact</Link>
           <li>
-            <Link to="/Projects">Projects</Link>
+            
           </li>
         </ul>
+        </div>
       </nav>
 
       <Outlet />
