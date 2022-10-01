@@ -10,7 +10,7 @@ const Layout = () => {
         <p className="subtitle">Director Of Photography</p>
         
         <ul className="navcomponents">
-          <li>
+          <li className="ul">
             <Link to="/">Projects</Link>
           </li>
           <li>
