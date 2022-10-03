@@ -147,6 +147,11 @@ div.row {
   justify-content: space-between;
   text-align: center;
   display: inline-flex;
+  margin-left: auto;
+    margin-right: auto;
+
+    height: 100%;
+    width: 25%;
 }
 
 .contact-h1 {

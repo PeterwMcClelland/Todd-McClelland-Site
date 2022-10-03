@@ -9,7 +9,7 @@ const Contact = () => {
           <i class="fa-brands fa-linkedin fa-2xl"></i>
           </li>
           <li>
-          <a href="mailto:tmcclelland@comcast.net"><i class="fa-solid fa-square-envelope fa-2xl"></i></a>
+          <a href="mailto:tmcclelland@comcast.net"><i class="fa-solid fa-envelope fa-2xl"></i></a>
           </li>
         </ul>
 
