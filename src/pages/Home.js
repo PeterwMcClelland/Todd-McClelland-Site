@@ -7,12 +7,14 @@ function Home () {
   
   <>
   <h1>Projects</h1>
-
+<div className="videocontainer">
     <div className="reactplayer">
     <ReactPlayer
         url="https://vimeo.com/352786895"
         controls
+        className="react-video-player"
       />
+      </div>
     </div>
     </>
 
